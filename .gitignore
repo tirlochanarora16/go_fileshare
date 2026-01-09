@@ -1,0 +1,71 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.html
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# Build output directory
+bin/
+dist/
+build/
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Cursor IDE
+.cursor/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Debug files
+debug
+debug.test
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Go module cache (usually in GOPATH, but just in case)
+go.sum.bak
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Profile data
+*.prof
+*.pprof
+cpu.out
+mem.out
+
+# Air live reload (if using)
+tmp/
+
+# Project specific binary
+filshare
