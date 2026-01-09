@@ -66,6 +66,7 @@ mem.out
 
 # Air live reload (if using)
 tmp/
+.air.toml
 
 # Project specific binary
 filshare
